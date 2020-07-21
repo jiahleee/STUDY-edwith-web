@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+a.anchorwhite{
+    color: white;
+}
+li.banneranchor{
+    list-style: none;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: mediumaquamarine;
+    border: solid 1px gray;
+    display: inline-block;
+    box-shadow : 2px 2px 5px #999;
+
+}
+
+.bannerright{
+    margin: 30px 30px;
+    float: right;
+}
+
+header{
+    border: solid 3px mediumaquamarine;
+    overflow: hidden;
+}
+
+main{
+    border: solid 3px mediumaquamarine;
+    overflow: hidden;
+}
+h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li.profileanchor{
+    width: 90px;
+    height: 90px;
+    background-color: mediumaquamarine;
+    color: #ffffff;
+    list-style: none;
+    float: left;
+    display: inline-block;
+    border: solid 1px gray;
+    line-height: 90px;
+    text-align: center;
+    margin-right: 10px;
+    box-shadow : 2px 2px 5px #999;
+}
+
+ul{
+    overflow: hidden;
+    margin: 0;
+    padding:0;
+    text-align: center;
+    display: inline-block;
+
+}
+div.profiletext{
+    text-align: center;
+    margin: 30px 0px;
+}
+div.profilebox{
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 800px;
+    height:500px;
+}
+.img{
+    text-align: center;
+    margin: 10px 0px;
+}
+footer{
+    border: solid 3px mediumaquamarine;
+}
+.footer{
+    text-align: center;
+    margin: 10px;
+}
+.footertext{
+    color: gray;
+}
